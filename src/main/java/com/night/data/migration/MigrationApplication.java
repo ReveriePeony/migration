@@ -1,7 +1,5 @@
 package com.night.data.migration;
 
-import java.util.Properties;
-
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
@@ -14,9 +12,6 @@ import com.night.data.migration.util.HotelDialog;
 @EnableTransactionManagement
 @SpringBootApplication
 public class MigrationApplication {
-	
-	@SuppressWarnings("unused")
-	private static Properties prop;
 	
 	public static void main(String[] args) {
 		try {
